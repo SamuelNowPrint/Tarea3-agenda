@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Agenda D' Samuel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="jvs.js"></script>
+    
+    <main>
+        
+        <section class="anadir">
+            <h1 class="titulo" style="margin-bottom: 20px;">Agregar Contacto</h1>
+
+            <div class="contenedor">
+
+                <input id="nombre-id" type="text" name="Nombre" placeholder="Nombre" style="margin-bottom: 20px;">
+                <input id="apellido-id" type="text" name="Apellido" placeholder="Apellido" style="margin-bottom: 20px;">
+                <input id="teléfono-id" type="tel" name="Teléfono" placeholder="Telefono">
+                
+                <button class="agregar-button" onclick="agregar_nuevo()">Add</button>
+                
+            </div>
+            
+        </section>
+
+        <section class="contact">
+            <h1 class="titulo">Contactos</h1>
+
+            <div class="contenedor">
+                <div id="contactos" >
+                    <ul>
+                            
+                    </ul>
+                </div>
+            </div>
+            
+        </section>
+
+    </main>
+
+</body>
+</html>
